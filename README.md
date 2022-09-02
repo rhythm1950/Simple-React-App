@@ -20,6 +20,6 @@ This is a website of a Travel Agency. I have developed it using HTML, CSS.
 
 
 ### Website Preview:
-<img src="./assets/Tripoto-Website-UI.png" alt="Tripoto Website UI">
+<img src="./assets/background.jpg" alt="Tripoto Website UI">
 
 
