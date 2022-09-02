@@ -1,4 +1,6 @@
-/* Global sytling */
+/* Global styling */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -12,22 +14,20 @@ body {
 
 button {
   padding: 6px 10px;
-  border-radius: 10px;
   font-size: 18px;
-
   justify-content: center;
   align-items: center;
-
-  border-color: darkslategrey;
-  color: darkslategrey;
+  color: white;
   cursor: pointer;
-
-  transition: background 0.3s;
+  transition: 0.3s;
+  background: #078638;
+  border: 1px solid #078638;
 }
 
 button:hover {
-  background: darkslategrey;
-  color: white;
+  background: white;
+  color: #078638;
+  border: 1px solid #078638;
 }
 
 h1 {
@@ -49,9 +49,9 @@ a {
   font-weight: bold;
 }
 
-/* main-header */
+/* header */
 .main-header {
-  background-color: #1ab2ff;
+  background-color: #078638;
   color: white;
   margin: auto;
   position: sticky;
@@ -67,9 +67,7 @@ nav {
   width: 95%;
   padding: 8px;
   margin: auto;
-
   align-items: center;
-
   display: flex;
   flex-wrap: wrap;
 }
@@ -78,7 +76,6 @@ nav {
   body {
     text-align: center;
   }
-
   .logo {
     padding: 2px;
   }
@@ -87,11 +84,8 @@ nav {
 #header-search {
   padding: 5px;
   height: 45px;
-
   margin: auto;
-  border-radius: 10px;
   border: none;
-
   display: flex;
   flex: 0.3;
 }
@@ -100,7 +94,6 @@ nav {
   margin: auto;
   justify-content: space-around;
   align-items: center;
-
   display: flex;
   flex: 0.5;
   list-style: none;
@@ -108,18 +101,16 @@ nav {
 
 /*section - main*/
 .main {
-  padding: 150px;
+  padding: 180px;
   font-size: 24px;
-
   margin: auto;
   justify-content: center;
   align-items: center;
-
-  background: url(./Assets/main-banner/home_banner_road.jpg);
+  background: url(./Assets/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 60vh;
+  min-height: 80vh;
 }
 
 .main h2 {
@@ -129,7 +120,6 @@ nav {
 .search-main {
   justify-content: center;
   display: flex;
-
   color: white;
 }
 
@@ -137,17 +127,13 @@ nav {
   padding: 5px;
   height: 45px;
   width: 550px;
-
   margin: auto;
-  border-radius: 10px;
-
   display: flex;
   flex-wrap: wrap;
-
   border: none;
 }
 
-/* benefits */
+/* Benefits */
 .benefits-head {
   padding: 20px;
   margin: 20px;
@@ -164,6 +150,7 @@ nav {
 .benefits-head h2 {
   font-size: 28px;
   text-align: center;
+  padding: 30px;
 }
 
 #inspiration {
@@ -174,6 +161,7 @@ nav {
 
 #inspiration h2 {
   font-size: 28px;
+  margin: 50px auto 0px;
   text-align: center;
   width: 60%;
 }
@@ -187,15 +175,15 @@ nav {
 }
 
 .inspirations {
-  border-radius: 7px;
   margin: 13px;
   padding: 20px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+  width: 33%;
 }
 
 .inspirations img {
-  height: 225px;
-  border-radius: 7px;
+  height: 165px;
+  width: 100%;
 }
 
 .inspirations h3 {
@@ -219,17 +207,19 @@ nav {
   margin: 10px;
   padding: 10px;
   justify-content: center;
+  width: 100%;
 }
 
 #packages h2 {
   font-size: 28px;
   text-align: center;
+  margin: 50px auto 0px;
   width: 50%;
 }
 
 .product-cards {
   padding: 20px;
-  margin: 20px;
+  margin: 20px auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -269,95 +259,15 @@ nav {
 }
 
 .card {
-  border-radius: 7px;
   margin: 10px;
   padding: 10px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+  width: 22%;
 }
 
 .card img {
   height: 155px;
-  border-radius: 7px;
-}
-
-/* Form */
-#contact {
-  min-height: 80vh;
-  display: flex;
-  align-items: center;
-
-  background: url(./Assets/footer-signin/img.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  justify-content: center;
-}
-
-.form-wrapper {
-  border-radius: 7px;
-  background-color: white;
-}
-
-.form-head h2 {
-  font-size: 32px;
-  padding: 10px;
-  margin: 10px;
-  text-align: center;
-  color: darkslategray;
-}
-
-#contact button {
   width: 100%;
-  padding: 14px 42px;
-  background: darkslategrey;
-  border-radius: 7px;
-  color: white;
-  cursor: pointer;
-  font-size: 18px;
-  transition: background 0.3s;
-  justify-content: center;
-  align-items: center;
-}
-
-#contact button:hover {
-  background: white;
-  color: darkslategrey;
-}
-
-.container {
-  max-width: 600px;
-  background-color: #fff;
-  padding: 25px 30px;
-  border-radius: 5px;
-}
-
-.content form .user-details {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 20px 0px 12px 0px;
-}
-
-form .user-details .input-box {
-  margin-bottom: 15px;
-  width: calc(100% / 2 - 40px);
-}
-
-form .input-box span.details {
-  display: block;
-  font-weight: 500;
-  margin-bottom: 5px;
-}
-
-.user-details .input-box input {
-  height: 40px;
-  width: 100%;
-  font-size: 16px;
-  border-radius: 7px;
-  padding-left: 15px;
-  border: 1px solid #ccc;
-  border-bottom-width: 2px;
-  transition: all 0.3s ease;
 }
 
 @media (max-width: 584px) {
@@ -374,8 +284,8 @@ form .input-box span.details {
 
 .footer-wrapper {
   min-height: 55vh;
-  background-color: #ccc;
-  color: darkslategrey;
+  background-color: #04773080;
+  color: rgb(255, 255, 255);
 }
 
 .footer-container {
@@ -412,5 +322,40 @@ form .input-box span.details {
   margin: 4px;
 }
 
-.footer2 {
+/* Benefits */
+.benefit-card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.benefit-card img {
+  width: 50%;
+  height: 100%;
+  margin-right: 14px;
+}
+
+.benefit-content {
+  margin-bottom: 0px;
+  color: white;
+}
+
+.benefit-content h5 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.benefit-content p {
+  font-size: 10px;
+}
+
+.benefit-card {
+  display: flex;
+  background-color: #078638;
+  align-items: center;
+  margin: 0px 10px;
+}
+
+.sections {
+  margin: 0px auto;
+  width: 90%;
 }
