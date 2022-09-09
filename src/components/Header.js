@@ -2,9 +2,9 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header class="main-header">
+    <header className="main-header">
       <nav>
-        <div class="logo">
+        <div className="logo">
           <svg xmlns="http://www.w3.org/2000/svg" width="135" height="44">
             <path
               fill="#FFF"
@@ -29,7 +29,7 @@ const Header = () => {
           <option value="Goa Packages"></option>
         </datalist>
 
-        <ul class="navigation">
+        <ul className="navigation">
           <a href="#inspiration">
             <li>Inspirations</li>
           </a>

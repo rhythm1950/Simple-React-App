@@ -2,10 +2,10 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer class="footer-wrapper">
-      <div class="footer-container">
-        <div class="footer1 footer">
-          <div class="logo">
+    <footer className="footer-wrapper">
+      <div className="footer-container">
+        <div className="footer1 footer">
+          <div className="logo">
             <svg xmlns="http://www.w3.org/2000/svg" width="135" height="44">
               <path
                 fill="#FFF"
@@ -15,15 +15,15 @@ const Footer = () => {
             </svg>
           </div>
           <h3>India's Largest Travel Community</h3>
-          <div class="footer1-icons">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-whatsapp"></i>
-            <i class="fa-brands fa-pinterest"></i>
-            <i class="fa-brands fa-linkedin"></i>
+          <div className="footer1-icons">
+            <i className="fa-brands fa-facebook"></i>
+            <i className="fa-brands fa-instagram"></i>
+            <i className="fa-brands fa-whatsapp"></i>
+            <i className="fa-brands fa-pinterest"></i>
+            <i className="fa-brands fa-linkedin"></i>
           </div>
         </div>
-        <div class="footer2 footer">
+        <div className="footer2 footer">
           <h3>About Tripoto</h3>
           <br />
           <h4>How It Works</h4>
@@ -38,7 +38,7 @@ const Footer = () => {
           <br />
           <h4>Contact Us</h4>
         </div>
-        <div class="footer3 footer">
+        <div className="footer3 footer">
           <h3>Products</h3>
           <br />
           <h4>Tour Packages</h4>
@@ -57,7 +57,7 @@ const Footer = () => {
           <br />
           <h4>Honeymoon Pakcages</h4>
         </div>
-        <div class="footer4 footer">
+        <div className="footer4 footer">
           <h3>Important Travel Links</h3>
           <br />
           <h4>Goa Tourism</h4>
@@ -76,7 +76,7 @@ const Footer = () => {
           <br />
           <h4>Honeymoon Destinations in India</h4>
         </div>
-        <div class="footer5 footer">
+        <div className="footer5 footer">
           <h3>Partner Program</h3>
           <br />
           <h4>Buy Travel Leads</h4>

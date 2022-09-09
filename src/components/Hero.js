@@ -2,8 +2,8 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section class="main">
-      <h2 class="search-main">India's Largest Community of Travellers</h2>
+    <section className="main">
+      <h2 className="search-main">India's Largest Community of Travellers</h2>
       <label for="search"></label>
       <input
         list="predefined-search-main"
